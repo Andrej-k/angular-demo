@@ -1,0 +1,10 @@
+<article class="article1" ng-controller="MainController">
+  <section >
+    <h3>Teams:</h3>
+    <ul>
+      <li ng-repeat="x in details">
+        <a href="/team/{{x._id}}">{{x.name}}</a>
+      </li>
+    </ul>
+  </section>
+</article>
